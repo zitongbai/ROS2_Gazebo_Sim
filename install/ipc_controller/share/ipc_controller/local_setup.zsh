@@ -1,0 +1,1 @@
+/home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller/ament_cmake_environment_hooks/local_setup.zsh

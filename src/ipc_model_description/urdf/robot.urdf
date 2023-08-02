@@ -1,0 +1,201 @@
+<robot name="ipc">
+<link name="car_body">
+<visual>
+<origin xyz="-0.033622298634709682497 0.033476672472247531731 0.041832772375176380253" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/car_body.stl"/>
+</geometry>
+<material name="car_body_material">
+<color rgba="0.43921568627450979783 0.47450980392156860699 0.50196078431372548323 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.033622298634709682497 0.033476672472247531731 0.041832772375176380253" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/car_body.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.033622298634709668619 0.033476672472247469281 0.067133955275540849184" rpy="0 0 0"/>
+<mass value="5.3505841096373272237" />
+<inertia ixx="0.018940104743840818075" ixy="0"  ixz="0" iyy="0.055777709544330651703" iyz="0" izz="0.072243878803116709508" />
+</inertial>
+</link>
+
+<link name="pendulum">
+<visual>
+<origin xyz="-2.0816681711721685133e-17 -0.10000000000000000555 0.0050000000000000009714" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/pendulum.stl"/>
+</geometry>
+<material name="pendulum_material">
+<color rgba="0.70196078431372543882 0.70196078431372543882 0.70196078431372543882 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-2.0816681711721685133e-17 -0.10000000000000000555 0.0050000000000000009714" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/pendulum.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.20000000000000003886 0.0050000000000000009714" rpy="3.141592653589793116 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/ball.stl"/>
+</geometry>
+<material name="ball_material">
+<color rgba="0.34901960784313723618 0.37647058823529411242 0.4000000000000000222 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.20000000000000003886 0.0050000000000000009714" rpy="3.141592653589793116 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/ball.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-3.6909872187572602882e-17 -0.18913733919835717945 0.0050000000000000009714" rpy="0 0 0"/>
+<mass value="1.0473305407344080109" />
+<inertia ixx="0.0018256645550231650772" ixy="-3.4746296843829777511e-19"  ixz="0" iyy="0.00042978210386013899428" iyz="0" izz="0.0020437818190169598775" />
+</inertial>
+</link>
+
+<joint name="pendulum_joint" type="continuous">
+<origin xyz="-0.033622298634709689436 0.02847667247224753076 0.10433277237517638025" rpy="-1.570796326794896558 -0 0" />
+<parent link="car_body" />
+<child link="pendulum" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="wheel">
+<visual>
+<origin xyz="0 0 0" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/wheel.stl"/>
+</geometry>
+<material name="wheel_material">
+<color rgba="0.32549019607843138191 0.52941176470588235947 0.75294117647058822484 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/wheel.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-3.2702586900588424138e-18 -6.1757557840125702573e-18 -0.012500000000000002429" rpy="0 0 0"/>
+<mass value="1.5791058393636416834" />
+<inertia ixx="0.0023187292961022662463" ixy="0"  ixz="0" iyy="0.0023187292961022662463" iyz="0" izz="0.0044729684006041530581" />
+</inertial>
+</link>
+
+<joint name="wheel_joint_1" type="continuous">
+<origin xyz="0.096377701365290335822 -0.066523327527752557087 0.066832772375176374702" rpy="-1.570796326794896558 -0 1.156482317317871725e-16" />
+<parent link="car_body" />
+<child link="wheel" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="wheel_2">
+<visual>
+<origin xyz="0 0 0.024999999999999994449" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/wheel.stl"/>
+</geometry>
+<material name="wheel_material">
+<color rgba="0.32549019607843138191 0.52941176470588235947 0.75294117647058822484 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0.024999999999999994449" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/wheel.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-3.2702586900588424138e-18 -6.1757557840125702573e-18 0.01249999999999999202" rpy="0 0 0"/>
+<mass value="1.5791058393636416834" />
+<inertia ixx="0.0023187292961022662463" ixy="0"  ixz="0" iyy="0.0023187292961022662463" iyz="0" izz="0.0044729684006041530581" />
+</inertial>
+</link>
+
+<joint name="wheel_joint_2" type="continuous">
+<origin xyz="0.096377701365290308066 0.13347667247224753728 0.066832772375176374702" rpy="-1.570796326794896558 -0 0" />
+<parent link="car_body" />
+<child link="wheel_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="wheel_3">
+<visual>
+<origin xyz="0 0 0.024999999999999994449" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/wheel.stl"/>
+</geometry>
+<material name="wheel_material">
+<color rgba="0.32549019607843138191 0.52941176470588235947 0.75294117647058822484 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0.024999999999999994449" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/wheel.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-3.2702586900588424138e-18 -6.1757557840125702573e-18 0.01249999999999999202" rpy="0 0 0"/>
+<mass value="1.5791058393636416834" />
+<inertia ixx="0.0023187292961022662463" ixy="0"  ixz="0" iyy="0.0023187292961022662463" iyz="0" izz="0.0044729684006041530581" />
+</inertial>
+</link>
+
+<joint name="wheel_joint_3" type="continuous">
+<origin xyz="-0.16362229863470970082 0.13347667247224753728 0.066832772375176374702" rpy="-1.570796326794896558 -0 0" />
+<parent link="car_body" />
+<child link="wheel_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="wheel_4">
+<visual>
+<origin xyz="0 0 0" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/wheel.stl"/>
+</geometry>
+<material name="wheel_material">
+<color rgba="0.32549019607843138191 0.52941176470588235947 0.75294117647058822484 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="1.570796326794896558 -0 0" />
+<geometry>
+<mesh filename="package://ipc_model_description/urdf/wheel.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-3.2702586900588424138e-18 -6.1757557840125702573e-18 -0.012500000000000002429" rpy="0 0 0"/>
+<mass value="1.5791058393636416834" />
+<inertia ixx="0.0023187292961022662463" ixy="0"  ixz="0" iyy="0.0023187292961022662463" iyz="0" izz="0.0044729684006041530581" />
+</inertial>
+</link>
+
+<joint name="wheel_joint_4" type="continuous">
+<origin xyz="-0.16362229863470967306 -0.066523327527752584842 0.066832772375176374702" rpy="-1.570796326794896558 -0 1.156482317317871725e-16" />
+<parent link="car_body" />
+<child link="wheel_4" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>

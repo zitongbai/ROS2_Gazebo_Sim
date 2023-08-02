@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "bdab1611a3eab19e5396d226",
+    "documentMicroversion": "1beaddaca7d251f82d18d770",
+    "elementId": "6c1c5c3e373976b0fb365132",
+    "fullConfiguration": "default",
+    "id": "Mq7TUo3Rm1KuJi3tn",
+    "isStandardContent": false,
+    "name": "car_body <1>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}

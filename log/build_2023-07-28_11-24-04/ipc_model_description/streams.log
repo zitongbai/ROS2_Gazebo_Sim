@@ -1,0 +1,34 @@
+[0.011s] Invoking command in '/home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_model_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_model_description -- -j12 -l12
+[0.047s] Invoked command in '/home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_model_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_model_description -- -j12 -l12
+[0.086s] Invoking command in '/home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_model_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_model_description
+[0.095s] -- Install configuration: ""
+[0.096s] -- Execute custom install script
+[0.097s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/launch/load_robot_description.launch.py
+[0.097s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/launch/viz.launch.py
+[0.097s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/ball.part
+[0.097s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/ball.stl
+[0.098s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/car_body.part
+[0.098s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/car_body.stl
+[0.098s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/config.json
+[0.098s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/pendulum.part
+[0.098s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/pendulum.stl
+[0.098s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/robot.urdf
+[0.099s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/wheel.part
+[0.099s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/urdf/wheel.stl
+[0.099s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/rviz/viz.rviz
+[0.100s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ament_index/resource_index/package_run_dependencies/ipc_model_description
+[0.100s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ament_index/resource_index/parent_prefix_path/ipc_model_description
+[0.100s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/environment/ament_prefix_path.sh
+[0.101s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/environment/ament_prefix_path.dsv
+[0.101s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/environment/path.sh
+[0.101s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/environment/path.dsv
+[0.101s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/local_setup.bash
+[0.102s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/local_setup.sh
+[0.102s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/local_setup.zsh
+[0.102s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/local_setup.dsv
+[0.102s] -- Symlinking: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/package.dsv
+[0.115s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ament_index/resource_index/packages/ipc_model_description
+[0.115s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/cmake/ipc_model_descriptionConfig.cmake
+[0.115s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/cmake/ipc_model_descriptionConfig-version.cmake
+[0.116s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_model_description/share/ipc_model_description/package.xml
+[0.118s] Invoked command in '/home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_model_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_model_description

@@ -1,0 +1,7 @@
+{
+    "documentId": "bdab1611a3eab19e5396d226",
+    "outputFormat": "urdf",
+    "assemblyName": "inverted pendulum car",
+    "packageName": "ipc_model_description/urdf/",
+    "robotName": "ipc"
+}

@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller -- -j12 -l12
+[0.032s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.103s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.113s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.168s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.168s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.169s] -- Added test 'lint_cmake' to check CMake code style
+[0.169s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.169s] -- Added test 'xmllint' to check XML markup files
+[0.170s] -- Configuring done
+[0.171s] -- Generating done
+[0.172s] -- Build files have been written to: /home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller
+[0.197s] Invoked command in '/home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller -- -j12 -l12
+[0.225s] Invoking command in '/home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller
+[0.233s] -- Install configuration: ""
+[0.233s] -- Execute custom install script
+[0.234s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ament_index/resource_index/package_run_dependencies/ipc_controller
+[0.234s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ament_index/resource_index/parent_prefix_path/ipc_controller
+[0.234s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/environment/ament_prefix_path.sh
+[0.235s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/environment/ament_prefix_path.dsv
+[0.235s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/environment/path.sh
+[0.235s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/environment/path.dsv
+[0.235s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/local_setup.bash
+[0.235s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/local_setup.sh
+[0.236s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/local_setup.zsh
+[0.236s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/local_setup.dsv
+[0.236s] -- Symlinking: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/package.dsv
+[0.247s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ament_index/resource_index/packages/ipc_controller
+[0.248s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/cmake/ipc_controllerConfig.cmake
+[0.248s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/cmake/ipc_controllerConfig-version.cmake
+[0.248s] -- Up-to-date symlink: /home/xiaobaige/projects/ROS2_Gazebo_Sim/install/ipc_controller/share/ipc_controller/package.xml
+[0.254s] Invoked command in '/home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/xiaobaige/projects/ROS2_Gazebo_Sim/build/ipc_controller

@@ -1,0 +1,8 @@
+source;share/ipc_model_description/hook/cmake_prefix_path.ps1
+source;share/ipc_model_description/hook/cmake_prefix_path.dsv
+source;share/ipc_model_description/hook/cmake_prefix_path.sh
+source;share/ipc_model_description/local_setup.bash
+source;share/ipc_model_description/local_setup.dsv
+source;share/ipc_model_description/local_setup.ps1
+source;share/ipc_model_description/local_setup.sh
+source;share/ipc_model_description/local_setup.zsh
